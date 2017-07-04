@@ -1,0 +1,23 @@
+<div class="row">
+<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+
+  <form name="signInForm" class="form-group"  novalidate>
+
+	<div class="form-group" ng-class="{ 'has-error' : signInForm.email.$invalid && !signInForm.email.$pristine && submitted}">
+      <label>Электронная почта</label>
+      <input type="email" name="email" class="form-control" ng-model="user.email">
+      <p ng-show="signInForm.email.$invalid && !signInForm.email.$pristine && submitted" class="help-block">Enter a valid email.</p>
+    </div>
+
+
+  <div class="form-group" ng-class="{ 'has-error' : signInForm.password.$invalid && !signInForm.email.$pristine && submitted}">
+    <label>Пароль</label>
+    <input type="password" name="password" ng-minlength="6" ng-model="user.password" class="form-control">
+    <p ng-show="signInForm.password.$error.minlength && !signInForm.password.$pristine && submitted">Minunum password length is 6 character</p>
+  </div>
+
+  <button type="button" class="btn btn-default btn-block" ng-click="login(signInForm.$valid)">Войти</button>
+  </form>
+
+</div>
+</div>

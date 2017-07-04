@@ -1,0 +1,26 @@
+<div class="container">
+
+<h4>This is Category Page</h4>
+
+
+<div dir-paginate="category in categories | itemsPerPage: categoriesPerPage" total-items="totalCategories" current-page="pagination.current">
+
+
+	<div class="col-md-4 col-xs-12">
+	<a ui-sref="home.categories.show({ id: category.id })" ng-click="rankCategory(category)">
+	
+	<div class="panel panel-default ">
+		<div class="panel-body categoryPanel">
+		  <span>Rank {{ category.rank }}</span> <h5>{{ category.name_rus | shortText }}</h5>
+		</div>
+	</div>
+	</div>
+	</a>
+	</div>
+
+
+
+<dir-pagination-controls on-page-change="categoryPageChanged(newPageNumber)"></dir-pagination-controls>
+
+</div>
+

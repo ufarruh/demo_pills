@@ -1,0 +1,22 @@
+{:uriI"¡file://vendor/assets/components/angularUtils-pagination/dirPagination.tpl.html?type=text/html&id=9cf2d310b253e62b3598d2b6fe1852fafa38b8ad2e77f94fc41b17500e01900f:ET:load_pathI"vendor/assets/components;T:filenameI"Lvendor/assets/components/angularUtils-pagination/dirPagination.tpl.html;T:	nameI".angularUtils-pagination/dirPagination.tpl;T:logical_pathI"3angularUtils-pagination/dirPagination.tpl.html;T:content_typeI"text/html;T:sourceI"ä<ul class="pagination" ng-if="1 < pages.length || !autoHide">
+    <li ng-if="boundaryLinks" ng-class="{ disabled : pagination.current == 1 }">
+        <a href="" ng-click="setCurrent(1)">&laquo;</a>
+    </li>
+    <li ng-if="directionLinks" ng-class="{ disabled : pagination.current == 1 }">
+        <a href="" ng-click="setCurrent(pagination.current - 1)">&lsaquo;</a>
+    </li>
+    <li ng-repeat="pageNumber in pages track by tracker(pageNumber, $index)" ng-class="{ active : pagination.current == pageNumber, disabled : pageNumber == '...' }">
+        <a href="" ng-click="setCurrent(pageNumber)">{{ pageNumber }}</a>
+    </li>
+
+    <li ng-if="directionLinks" ng-class="{ disabled : pagination.current == pagination.last }">
+        <a href="" ng-click="setCurrent(pagination.current + 1)">&rsaquo;</a>
+    </li>
+    <li ng-if="boundaryLinks"  ng-class="{ disabled : pagination.current == pagination.last }">
+        <a href="" ng-click="setCurrent(pagination.last)">&raquo;</a>
+    </li>
+</ul>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Zfile-digest://vendor/assets/components/angularUtils-pagination/dirPagination.tpl.html;TTF:charsetI"
+utf-8;F:digest"%ÞÑ”xÀ2¬\5ˆnËî6v£Ð¹ŒÅ¥ ©‰ÐP³Ú:lengthiä:dependencies_digest"%Ï‘,XMÁ»T]òÿ8H˜{äáaª½ˆfàñ$¼ì:idI"E9cf2d310b253e62b3598d2b6fe1852fafa38b8ad2e77f94fc41b17500e01900f;F:
+mtimel+Å[Y

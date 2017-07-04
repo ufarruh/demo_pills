@@ -1,0 +1,30 @@
+{:uriI"Žfile://vendor/assets/components/angular/package.json?type=application/json&id=53e98853e1d07966de4151ff225bc26d6cff24bb8774e390f945c02c6ec2ef9f:ET:load_pathI"vendor/assets/components;T:filenameI"2vendor/assets/components/angular/package.json;T:	nameI"angular/package;T:logical_pathI"angular/package.json;T:content_typeI"application/json;T:sourceI"<{
+  "name": "angular",
+  "version": "1.6.2",
+  "description": "HTML enhanced for web apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/angular.js.git"
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "client-side"
+  ],
+  "author": "Angular Core Team <angular-core+npm@google.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "homepage": "http://angularjs.org"
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"@file-digest://vendor/assets/components/angular/package.json;TTF:charsetI"
+utf-8;F:digest"%ÌBbqÝÇs4×øKÅPî÷õH;Õ±‘^Úó£Ú]ü:lengthi<:dependencies_digest"%OÅ9Øª0|Ÿ´{­0Ú¦ŸÉ%Ã÷Ž©*™:idI"E53e98853e1d07966de4151ff225bc26d6cff24bb8774e390f945c02c6ec2ef9f;F:
+mtimel+Å[Y

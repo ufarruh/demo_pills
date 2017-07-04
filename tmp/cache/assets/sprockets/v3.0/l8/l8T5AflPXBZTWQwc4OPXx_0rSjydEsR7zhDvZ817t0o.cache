@@ -1,0 +1,38 @@
+{:uriI"êfile://vendor/assets/components/ng-alertify/bower.json?type=application/json&id=f9621c774b4c49344522a9ecedc5ae09b771c62b34406b5414034af0940ac47f:ET:load_pathI"vendor/assets/components;T:filenameI"4vendor/assets/components/ng-alertify/bower.json;T:	nameI"ng-alertify/bower;T:logical_pathI"ng-alertify/bower.json;T:content_typeI"application/json;T:sourceI"m{
+  "name": "ng-alertify",
+  "main": "dist/ng-alertify.js",
+  "version": "1.0.2",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "docs",
+    "Gruntfile.js",
+    "package.json",
+    "index.html"
+  ],
+  "keywords": [
+    "alertify",
+    "angular",
+    "angularjs",
+    "message",
+    "popup",
+    "wrapper"
+  ],
+  "homepage": "https://github.com/kensho/ng-alertify",
+  "devDependencies": {
+    "alertify.js": "~0.3.11"
+  },
+  "authors": [
+    "Gleb Bahmutov <gleb@kensho.com>"
+  ],
+  "description": "AngularJS wrapper around alertify popup library"
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Bfile-digest://vendor/assets/components/ng-alertify/bower.json;TTF:charsetI"
+utf-8;F:digest"%Ka(¿T]Y√πkC)÷?∂≈O˙)[ãX8ÅMáÅé:lengthim:dependencies_digest"%/ÎQoc/+÷hrETƒ”/'ÍÕáös%nÈ√˜
+˜Z–:idI"Ef9621c774b4c49344522a9ecedc5ae09b771c62b34406b5414034af0940ac47f;F:
+mtimel+≈[Y

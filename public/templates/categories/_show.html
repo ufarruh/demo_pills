@@ -1,0 +1,22 @@
+<div class="container">
+<h4>This is {{ category.name_rus }}'s page</h4>
+<p>Rank: {{ category.rank }}</p>
+
+<dir-pagination-controls></dir-pagination-controls>
+
+<div dir-paginate="drug in categoryDrugs | itemsPerPage: 5" total-items="{{ 25 }}" current-page="pagination.current">
+
+<a ui-sref="home.drugs.show({id: drug.id })" ng-click="rankDrug(drug)">
+<div  class="panel-default">
+	<div class="panel-body">
+		<h5>{{ drug.name_rus }}</h5>
+		<p>{{ drug.packaging }}</p>
+	</div>
+</div>
+</a>
+
+</div>
+
+<dir-pagination-controls on-page-change="drugResultsPage(newPageNumber)"></dir-pagination-controls>
+
+</div>

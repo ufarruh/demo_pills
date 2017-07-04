@@ -1,0 +1,38 @@
+{:uriI"ñfile://vendor/assets/components/angular-animate/package.json?type=application/json&id=e7f8e0beffa16fe6704926caaab5ea28e7239a7fb925e2e1d3b9d4e040ee4f91:ET:load_pathI"vendor/assets/components;T:filenameI":vendor/assets/components/angular-animate/package.json;T:	nameI"angular-animate/package;T:logical_pathI"!angular-animate/package.json;T:content_typeI"application/json;T:sourceI"æ{
+  "name": "angular-animate",
+  "version": "1.6.2",
+  "description": "AngularJS module for animations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/angular.js.git"
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "animation",
+    "client-side"
+  ],
+  "author": "Angular Core Team <angular-core+npm@google.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-animate": {
+        "deps": ["angular"]
+      }
+    }
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Hfile-digest://vendor/assets/components/angular-animate/package.json;TTF:charsetI"
+utf-8;F:digest"%Z◊3/Öa:K#ñù}xêπ…_TãBHI§˝Dm§:lengthiæ:dependencies_digest"%≤=ùj`ﬂØ6ñ&˜Ü˙¸≈f…X∞≥–‘ò.ËáﬂF„®:idI"Ee7f8e0beffa16fe6704926caaab5ea28e7239a7fb925e2e1d3b9d4e040ee4f91;F:
+mtimel+≈[Y

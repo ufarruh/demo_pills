@@ -1,0 +1,80 @@
+<nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+
+     <div ng-init="logo = 'logo.png'">
+      <a class="navbar-brand" href="#">
+            <img alt="Logo" class="logo" ng-src="{{logo}}">
+        </a>
+     </div>
+
+
+     <div ng-init="user = 'icons/user.png'">
+      <a class="navbar-brand pull-right visible-xs" href="#">
+            <img alt="user"  class="user" ng-src="{{user}}">
+        </a>
+     </div>
+        
+        <div ng-init="favorite = 'icons/favorite.png'">
+      <a class="navbar-brand pull-right visible-xs" href="#">
+            <img alt="user"  class="user" ng-src="{{favorite}}">
+        </a>
+     </div>
+
+      <a class="navbar-brand pull-right visible-xs" href="#"><i class="fa fa-search fa-lg" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<!-- <nav class="navbar navbar-default" role="navigation">
+<div class="container">
+
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+</button>
+
+<a href="#" class="navbar-brand ">
+  <span class="logo"><strong>tabletki</strong><span class="handwriting">uz</span><br />
+  <small >your health assistant </small></span>
+</a>
+</div>
+
+
+<div class="collapse navbar-collapse">
+
+<ul class="nav navbar-nav navbar-right visible-xs">
+  <li><a ui-sref="home.profile">Login</a></li>
+  <li><a ui-sref="home.profile">Register</a></li>
+  <li><a ui-sref="home.new.info">Add Pharmacy</a></li>
+</ul>
+
+<div class="nav navbar-nav navbar-right hidden-xs">
+  <div class="row">
+  <div class="pull-right" ng-hide="signedIn()">
+      <a ui-sref="home.profile">Login</a> |
+      <a ui-sref="home.profile">Register</a> |
+      <a ui-sref="home.new.info" class="btn btn-warning post-ad-btn">Add Phamacy</a>
+  </div>
+
+  
+  <div class="pull-right" ng-show="signedIn()">    
+    <a>Welcome, {{ user.email }} <span class="btn btn-danger btn-xs" href="#" ng-click="logout()">Log Out</span></a>
+    <a ui-sref="home.dashboard.pharm">Pharmacy</a>
+  </div>
+
+
+  </div>
+</div>
+
+</div>
+</div>
+</nav>
+
+
+ -->

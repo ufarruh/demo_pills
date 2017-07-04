@@ -1,0 +1,50 @@
+<div class="page-header text-center">
+   <h2>Добавить Аптеку</h2>
+ </div>
+
+<div class="form-group">
+<label for="name">Название Аптеки</label>
+<input type="text" name="name" class="form-control" ng-model="newPharmacyForm.name"><br>
+</div>
+
+<div class="form-group">
+<label for="phone">Телефон</label>
+<input type="phone" name="phone" class="form-control" ng-model="newPharmacyForm.phone_number"><br>
+</div>
+
+<div class="form-group">
+<label>Рабочие часы</label>
+<input type="text" name="hours" ng-model="newPharmacyForm.work_hours" class="form-control"><br>
+</div>
+
+
+<div class="form-group">
+<label for="address">Адрес</label>
+<input type="text" name="address" ng-model="newPharmacyForm.address" class="form-control"><br>
+</div>
+
+<div class="form-group">
+<label>Выберите город</label>
+<select name="newPharmacyForm.city" class="form-control">
+<option>город</option>
+<option>Самарканд</option>
+<option>Ташкент</option>
+<option>Фергана</option>
+</select><br>
+</div>
+
+<div class="form-group">
+<label for="address">Район</label>
+<input type="text" name="address" ng-model="newPharmacyForm.region" class="form-control"><br>
+</div>
+
+
+
+<div class="form-group">
+<div >
+<a  ng-click="create()" class="btn btn-block btn-default">
+Отправить 
+</a>
+</div>
+</div>
+

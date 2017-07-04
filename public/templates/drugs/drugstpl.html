@@ -1,0 +1,4 @@
+<a ui-sref="home.drugs.show({id: match.model.id})">
+  <p style="display:block; width: 290px;"  class="registration" bind-html-unsafe="match.model.name_rus | typeaheadHighlight:query"></p>
+  <p class="autoDrug" ng-bind-html="match.model.name_rus | uibTypeaheadHighlight:query"></p>	
+</a>

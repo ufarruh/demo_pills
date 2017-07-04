@@ -1,0 +1,16 @@
+{:uriI"”file://vendor/assets/components/angular-animate/bower.json?type=application/json&id=0920b00404e29ee3a72deb952657f4cd142088c53b867fa167de795c35ce83c7:ET:load_pathI"vendor/assets/components;T:filenameI"8vendor/assets/components/angular-animate/bower.json;T:	nameI"angular-animate/bower;T:logical_pathI"angular-animate/bower.json;T:content_typeI"application/json;T:sourceI"¬{
+  "name": "angular-animate",
+  "version": "1.6.2",
+  "license": "MIT",
+  "main": "./angular-animate.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.6.2"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Ffile-digest://vendor/assets/components/angular-animate/bower.json;TTF:charsetI"
+utf-8;F:digest"%·AÔZŒ„u‡Ç™ÚºªC—;İœnu+jËıëŸ}!:lengthi¬:dependencies_digest"%‚âu ë
+Y©Â\:ö¸È”9Ö¨Fê§çĞ•°ìx:idI"E0920b00404e29ee3a72deb952657f4cd142088c53b867fa167de795c35ce83c7;F:
+mtimel+Å[Y

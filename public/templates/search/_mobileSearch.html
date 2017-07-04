@@ -1,0 +1,40 @@
+<input  id="mobileTop"
+        type="text"
+        class="mobileSearch" 
+        placeholder="Введите название лекарство" 
+        ng-model="selectedDrug"
+        uib-typeahead="drug as drug.name_eng for drug in searchDrug($viewValue)"
+        typeahead-no-results="noResults"
+        typeahead-loading="loadingLocations"
+        typeahead-on-select="redirectTo($item)"
+        typeahead-min-length="3"
+        typeahead-template-url="templates/search/_emptySearch.html"        
+        autocomplete="off"
+        autofocus >
+
+
+
+<br />
+<br />
+<a href="#"> <i class="fa fa-angle-left fa-lg" aria-hidden="true"></i> Назад</a>
+
+<br />
+<br />
+<br />
+
+<div ng-show="mobileResult" class="text-center" ng-repeat="drug in mobileResult">
+  <a ui-sref="home.drugs.show({ id: drug.id })"><h4 class="text-center">{{ drug.name_rus }}</h4></a>
+  <span>{{ drug.packaging }}</span>
+  <hr>
+</div>
+
+
+<div class="text-center" ng-hide="mobileResult">
+  <strong>Popular Searches</strong>
+  <br><br><br>
+  <p><a href="#">Geptral</a></p>
+  <p><a href="#">Analgin</a></p>
+  <p><a href="#">Aktovegin</a></p>
+  <p><a href="#">D3 Nicomed</a></p>
+  <p><a href="#">Vitrum Vision</a></p>
+</div>

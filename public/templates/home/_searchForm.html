@@ -1,0 +1,36 @@
+<br />
+<br />
+<br />
+
+
+
+<div class="container hidden-xs col-md-offset-2">
+  
+</div>
+
+
+
+
+<form class="form-group col-md-8 col-md-offset-2">
+  <!-- <input type="text" class="form-control main-search" placeholder="Search"> -->
+
+
+  <input type="text"
+        class="form-control main-search"
+        placeholder="Введите название лекарство" 
+        ng-model="selectedDrug"
+        uib-typeahead="drug as drug.name_eng for drug in searchDrug($viewValue)"
+        typeahead-no-results="noResults"
+        typeahead-loading="loadingLocations"
+        typeahead-on-select="redirectTo($item)"
+        typeahead-min-length="3" typeahead-template-url="templates/drugs/drugstpl.html"
+        autocomplete="off">
+
+
+</form>
+     
+
+<div class="text-center">
+    <button class="btn btn-default prescription-btn"><i class="fa fa-camera" id="presc" aria-hiddentrue"></i> Upload Prescription</button>
+</div>
+

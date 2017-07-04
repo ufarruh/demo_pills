@@ -1,0 +1,94 @@
+<div class="container drugShow">
+<h2>{{ drug.name_rus }}</h2><span>Rank: {{ drug.rank }}</span> <span>
+<a href="" ng-click="favorite(drug)">
+  <i class="fa fa-heart-o fa-lg pull-right" aria-hidden="true"></i>
+</a>
+</span>
+<p>{{ drug.packaging }}</p>
+
+
+<h6>Ingredient: </h6>
+
+<div ng-repeat="ingred in drug.ingredients">
+  <strong> {{ ingred.name_rus }}</strong>
+</div>
+<br><br>
+
+
+<uib-tabset active="active">
+
+	<uib-tab index="$index + 1">
+      <uib-tab-heading>
+        Инструкция
+      </uib-tab-heading>
+      <br><br>
+      <div class="col-md-8 col-md-offset-2 col-xs-12">
+		<p ng-show="drug.pharmacology_action"><strong>Фармакологическое действие - </strong> {{ drug.pharmacology_action }}</p>
+		<p ng-show="drug.indications"><strong>Показания к применению - </strong> {{ drug.indications }}</p>
+		<p ng-show="drug.pharmacokinetics"><strong>Фармакодинамика препарата - </strong> {{ drug.pharmacodynamics }}</p>
+		<p ng-show="drug.pharmacokinetics"><strong>Фармакокинетика препарата - </strong> {{ drug.pharmacokinetics }}</p>
+		<p ng-show="drug.during_pregnancy"><strong>Использование во время беременности - </strong> {{ drug.during_pregnancy }}</p>
+		<p ng-show="drug.in_impaired_renal_function"><strong>Использование при нарушением функции почек - </strong> {{ drug.in_impaired_renal_function }}</p>
+		<p ng-show="drug.contraindications"><strong>Противопоказания к применению - </strong> {{ drug.contraindications }}</p>
+		<p ng-show="drug.side_effects"><strong>Побочные действия - </strong> {{ drug.side_effects }}</p>
+		<p ng-show="drug.dosing"><strong>Дозировка - </strong> {{ drug.dosing }}</p>
+		<p ng-show="drug.overdose"><strong>Передозировка - </strong> {{ drug.overdose }}</p>
+		<p ng-show="drug.precautions"><strong>Меры предосторожности при приеме - </strong> {{ drug.precautions }}</p>
+		<p ng-show="drug.cautions"><strong>Особые указания при приеме - </strong> {{ drug.cautions }}</p>
+		<p ng-show="drug.storage_conditions"><strong>Условия хранения - </strong> {{ drug.storage_conditions }}</p>
+		<p ng-show="drug.best_before"><strong>Срок годности - </strong> {{ drug.best_before }}</p>
+		<p ng-show="drug.special_cases"><strong>Особые случаи - </strong> {{ drug.special_cases }}</p>
+	</div>
+
+
+    </uib-tab>
+
+    <uib-tab index="$index + 2">
+
+        <uib-tab-heading>
+          Аналоги
+    	</uib-tab-heading>
+        <br><br>
+
+     <div ng-repeat="adrug in drug.ingredients ">
+     	<div ng-repeat="a in adrug.drugs">
+
+     		<a ui-sref="home.drugs.show({ id: a.id })">
+          <div class="col-md-6">
+            <div class="panel panel-default">
+            <div class="panel-body">
+              <h4>{{ a.name_rus }}</h4>
+              <p>Form: {{ a.packaging }}</p>
+              </div>
+            </div>
+            </div>
+        </a>
+
+     	</div>
+      ###############################
+     </div>
+    </uib-tab>
+
+    
+
+    <uib-tab index="$index + 3">
+
+        <uib-tab-heading>
+          Отзывы
+    	</uib-tab-heading>
+    
+
+     <div ng-repeat="pharmacy in drug.pharmacies">
+	   <div class="panel panel-default">
+	      <div class="panel-body">
+	    		{{ pharmacy.name }}
+	      </div>
+	    </div>
+	 </div>
+
+    </uib-tab>
+
+
+  </uib-tabset>
+
+</div>

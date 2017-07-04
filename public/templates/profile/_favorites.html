@@ -1,0 +1,14 @@
+<div class="container">
+  <h4>Favorited Drugs</h4>
+
+
+  <div ng-repeat="favorite in favorites">
+  <div class="panel panel-default">
+  	<div class="panel-body">
+  		{{ favorite.name_rus }}	<span><a href="" ng-click="unfavorite(favorite)">Delete</a></span>
+  	</div>
+    </div>
+  </div>
+
+</div>
+

@@ -1,0 +1,14 @@
+{:uriI"Œfile://vendor/assets/components/angular/bower.json?type=application/json&id=b2ce1912f3fae526c61077be24482fac112130597827e0cf766a2de806a7afe4:ET:load_pathI"vendor/assets/components;T:filenameI"0vendor/assets/components/angular/bower.json;T:	nameI"angular/bower;T:logical_pathI"angular/bower.json;T:content_typeI"application/json;T:sourceI"…{
+  "name": "angular",
+  "version": "1.6.2",
+  "license": "MIT",
+  "main": "./angular.js",
+  "ignore": [],
+  "dependencies": {
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI">file-digest://vendor/assets/components/angular/bower.json;TTF:charsetI"
+utf-8;F:digest"%ŠqËèáYP×ôŠË¾Fú¹‘–eæÎD>~Ó:lengthi…:dependencies_digest"%sÚï{o¹:uM'dL|ª¾<¤"@só©KæöÉ :idI"Eb2ce1912f3fae526c61077be24482fac112130597827e0cf766a2de806a7afe4;F:
+mtimel+Å[Y

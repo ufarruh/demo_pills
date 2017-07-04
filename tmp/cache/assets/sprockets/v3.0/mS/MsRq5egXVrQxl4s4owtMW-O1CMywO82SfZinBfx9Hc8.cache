@@ -1,0 +1,38 @@
+{:uriI"úfile://vendor/assets/components/angularUtils-pagination/bower.json?type=application/json&id=be78ebf93cc0896fa527bf8a6a35210844c1f032d6576a7ca3e7b738867e774c:ET:load_pathI"vendor/assets/components;T:filenameI"@vendor/assets/components/angularUtils-pagination/bower.json;T:	nameI""angularUtils-pagination/bower;T:logical_pathI"'angularUtils-pagination/bower.json;T:content_typeI"application/json;T:sourceI"®{
+  "name": "angularUtils-pagination",
+  "version": "0.11.1",
+  "homepage": "https://github.com/michaelbromley/angularUtils/tree/master/src/directives/pagination",
+  "authors": [
+    "Michael Bromley <michael@michaelbromley.co.uk>"
+  ],
+  "description": "Magical automatic pagination for anything in AngularJS",
+  "main": ["dirPagination.js", "dirPagination.tpl.html"],
+  "moduleType": [
+    "globals"
+  ],
+  "dependencies": {
+    "angular": ">=1.1.4"
+  },
+  "keywords": [
+    "angularjs",
+    "pagination",
+    "directive",
+    "paging",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
+
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Nfile-digest://vendor/assets/components/angularUtils-pagination/bower.json;TTF:charsetI"
+utf-8;F:digest"%§cÍôÄÌ«	¥[¿—ZL„gùß©
+k)¢¿€⁄ôI>≈:lengthi®:dependencies_digest"%Ÿ„@Ï!AÊ«·ë€5æ(‰ÙVl0úë›ΩÔG˜Ö:idI"Ebe78ebf93cc0896fa527bf8a6a35210844c1f032d6576a7ca3e7b738867e774c;F:
+mtimel+≈[Y
